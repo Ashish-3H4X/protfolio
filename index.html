@@ -53,7 +53,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin: 130px 0;
+        margin: 110px 0;
       }
       .firstSection > div {
         width: 34%;
@@ -71,19 +71,57 @@
       .secondSection {
         max-width: 80vw;
         margin: auto;
+        height: 80vh;
       }
 
       main hr {
         background: #2100d8;
         border: 0;
         height: 1px;
-        margin: 60px 84px;
+        margin: 50px 84px;
+        border-radius: 100%;
       }
-      .secondSection h1{
+      .secondSection h1 {
         font-size: 1.9rem;
       }
-      .text-gray{
+      .text-gray {
         color: gray;
+      }
+      .secondSection .box {
+        background-color: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+        justify-content: space-around;
+      }
+      .secondSection .vertically {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+    
+      .vertically img {
+        width: 23px;
+        position: relative;
+        top: -30px;
+        right: 9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 60px;
+        font-size: 15px;
+        width: max-content;
+        
+      }
+      .vertical-desc {
+        position: relative;
+        top: 60px;
+        width: 250px;
+        font-size: 10px;
+        margin-top: 10px;
+         padding-right: 20px;
       }
     </style>
   </head>
@@ -116,15 +154,58 @@
           <img src="image/devloper.png" alt="" srcset="" />
         </div>
       </section>
-      
+
       <!-- second section  -->
 
       <hr />
       <section class="secondSection">
         <span class="text-gray">What I have done far</span>
         <h1>Work Experience</h1>
-      </section>
+        <div class="box">
+          <div class="vertically">
+            <img src="image/html.png" alt="" />
+            <div class="vertical-title"><p>Web Devloper(2012 - 2017)</p></div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis,
+              vitae! Sint reprehenderit porro asperiores aut. Sit nisi corporis
+              numquam sequi doloremque, molestias quisquam, a sapiente tenetur
+              aspernatur iure, impedit sint.
+            </div>
+          </div>
 
+          <div class="vertically">
+            <img src="image/whatsapp.jpg" alt="" />
+            <div class="vertical-title"><p>Whatsapp(2017 - 2019)</p></div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis,
+              vitae! Sint reprehenderit porro asperiores aut. Sit nisi corporis
+              numquam sequi doloremque, molestias quisquam, a sapiente tenetur
+              aspernatur iure, impedit sint.
+            </div>
+          </div>
+          <div class="vertically">
+            <img src="image/instagram.avif" alt="" />
+            <div class="vertical-title"><p>Instagram(2019 - 2022)</p></div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis,
+              vitae! Sint reprehenderit porro asperiores aut. Sit nisi corporis
+              numquam sequi doloremque, molestias quisquam, a sapiente tenetur
+              aspernatur iure, impedit sint.
+            </div>
+          </div>
+          <div class="vertically">
+            <img src="image/facebook.png" alt="" />
+            <div class="vertical-title"><p>Facebook (2022 - 2025)</p></div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis,
+              vitae! Sint reprehenderit porro asperiores aut. Sit nisi corporis
+              numquam sequi doloremque, molestias quisquam, a sapiente tenetur
+              aspernatur iure, impedit sint.
+            </div>
+          </div>
+        
+        </div>
+      </section>
     </main>
     <!-- Load library from the CDN -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
